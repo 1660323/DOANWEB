@@ -1,0 +1,108 @@
+/*HEADER*/
+#header-wp{
+    background: url('../../images/img-line.png') no-repeat 0px 0px;
+    border-bottom: 1px solid #cecece;
+}
+#header-wp.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1050;
+    background: #fff;
+}
+#logo{
+    display: block;
+    padding: 15px 0px;
+}
+#main-content-wp{ margin-top: 80px;}
+
+#main-menu{ padding-left: 125px;}
+#main-menu li{ float: left;}
+#main-menu li a{
+    display: block;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 30px 25px;
+    color: #000;
+}
+#action-wp #search-wp .btn{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    line-height: 20px;
+    background: transparent;
+    padding: 30px 15px;
+    color: #272727;
+}
+#action-wp #cart-wp #btn-cart{
+    position: relative;
+    display: block;
+    padding: 30px 15px;
+    color: #272727;
+    font-size: 15px;
+    line-height: 20px;
+}
+#action-wp #cart-wp #btn-cart #num{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: normal;
+    border-radius: 50%;
+    background: #b4666c;
+    color: #fff;
+    font-family: 'Roboto Condensed Bold';
+}
+#main-menu > li{ position: relative;}
+#main-menu .sub-menu{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    background: #fff;
+}
+#main-menu .sub-menu li a{
+    position: relative;
+    display: block;
+    width: 200px;
+    padding: 12px 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #fff;
+    color: #000;
+    border-bottom: 1px dashed #cccccc;
+}
+#main-menu .sub-menu li a:before{
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 0%;
+    background: #b4666c;
+    top: 0;
+    left: 0;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+#main-menu .sub-menu li a:hover:before{ height: 100%;}
+#main-menu .sub-menu li a:hover{ background: #f1f1f1;}
+#main-menu .sub-menu li:last-child a{ border-bottom: none;}
+#main-menu > li:hover .sub-menu{ display: block;}
+#main-menu li .arrow{
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    color: #333;
+    font-size: 12px;
+}

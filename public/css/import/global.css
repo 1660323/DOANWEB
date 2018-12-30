@@ -1,0 +1,91 @@
+body{
+    font-family: "Roboto Condensed Regular";
+    font-size: 14px;
+    color: #272727;
+}
+.fl-left{ float: left;}
+.fl-right{ float: right;}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.wp-inner{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*RESET BOOTSTRAP*/
+a{ text-decoration: none!important;}
+.table{ margin-bottom: 0;}
+.table-responsive{ overflow-x: inherit;}
+.modal-dialog{ margin: 155px auto; width: 575px;}
+.modal-content{ border-radius: 0px; height: 290px;}
+.modal-content .title{
+    color: #000;
+    padding: 100px 0px 20px 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.modal-content #form-s{ padding: 0px 20px;}
+.modal-content #form-s #s{
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+    padding: 15px 45px 15px 15px;
+    border-radius: 3px;
+    width: 280px;
+    border: 1px solid #a0a0a0;
+}
+.modal-content #form-s #btn-s{
+    position: relative;
+    z-index: 3;
+    left: -40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+}
+.modal-content .thumb{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+/*OWL*/
+.owl-pagination{ 
+    bottom: 4%;
+    right: 47%;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 8px;
+    height: 8px;
+    margin: 0px 8px;
+    background: #000;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.owl-theme .owl-controls .owl-page span:hover{
+    transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+}
+#main-content-wp.active{ margin-top: 91px;}
+#btn-respon, #menu-respon{ display: none;}
+.owl-controls{ text-align: center;}
+.owl-controls .owl-buttons{
+    top: inherit;
+    position: inherit;
+    right: inherit;
+}

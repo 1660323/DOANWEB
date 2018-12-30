@@ -1,0 +1,152 @@
+/*RESPONSIVE*/
+@media screen and (max-width: 1170px){
+    .wp-inner{ width: 100%;}
+}
+
+@media screen and (max-width: 1024px){
+    /*HEADER*/
+    .wp-inner{ padding-left: 10px; padding-right: 10px;}
+    #btn-respon{ display: block; font-size: 18px; line-height: 21px; color: #000; padding: 35px 0px 35px 20px; cursor: pointer;}
+    #main-menu{ display: none;}
+    #site{ position: relative; overflow: hidden;}
+    #container{ position: relative; right: 0px; transition: all .5s ease; -moz-transition: all .5s ease; -webkit-transition: all .5s ease; -o-transition: all .5s ease;}
+    #menu-respon{  display: block; position: absolute; top: 0; right: -250px; width: 250px; height: 100%; background: #ddd; transition: all .5s ease; -moz-transition: all .5s ease; -webkit-transition: all .5s ease; -o-transition: all .5s ease;}
+    #site.show-respon-menu #container{ right: 250px;}
+    #site.show-respon-menu #menu-respon{ right: 0;}
+    #main-menu-respon .sub-menu{ display: none;}
+    #menu-respon .logo{ display: block; padding: 20px 0px;text-align: center; line-height: 18px; background: #F4FCFF;}
+    #menu-respon .logo img{ display: inline-block;}
+    #main-menu-respon li{ position: relative; font-family: 'Roboto Regular';}
+    #main-menu-respon li a{ display: block; padding: 15px 20px; color: #000; line-height: 24px; text-transform: uppercase; font-family: 'Roboto Medium'; font-weight: normal;}
+    #main-menu-respon > li > a{ border-top: 1px solid #fff; border-bottom: 1px solid #979797;}
+    #main-menu-respon li .sub-menu li a{border-top: 1px solid #fff; border-bottom: 1px solid #979797; padding: 15px 25px 15px 40px;}
+    #main-menu-respon > li:last-child > a, #main-menu-respon li:last-child .sub-menu > li:last-child > a{ border-bottom: none;}
+    #main-menu-respon > li:hover > a, #main-menu-respon .sub-menu li a:hover{ background-color: #cacaca;}
+    #main-menu-respon li .arrow{ position: absolute; top: 0px; right: 0px; padding: 21px; cursor: pointer; font-weight: bold;}
+    #main-menu-respon li.open .arrow{ transform: rotate(90deg); -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg);}
+    #action-wp #search-wp .btn{ display: none;}
+    /*HOME*/
+    #slider-wp{ display: none;}
+    #main-content-wp{ margin-top: 0!important;}
+    #list-product-wp .list-item li{ width: 32%; margin-right: 2%;}
+    #list-product-wp .list-item li:nth-child(3n){ margin-right: 0!important}
+    #list-product-wp .list-item li:hover .thumb img{ transform: scale(1); -moz-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1);}
+    /*MAIN CONTENT*/
+    #content{ width: 100%;}
+    #sidebar{ display: none;}
+    /*DETAIL PRODUCT*/
+    #info-product-wp .thumb{ display: none;}
+    #info-product-wp .thumb-respon{ display: block;}
+    /*FOOTER*/
+    #fanpage{ display: none;}
+    #foot-body .block{ width: 33.333333333333336%!important;}
+    /*CHECK OUT*/
+    #to-checkout-wp .shop-table tbody tr td{ white-space: nowrap;}
+}
+
+@media screen and (max-width: 800px){
+
+    /*CART*/
+    .table-responsive{ width: 100%; margin-bottom: 15px; overflow-y: hidden; -ms-overflow-style: -ms-autohiding-scrollbar; border: 1px solid #ddd;}
+    .table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td{ white-space: nowrap; display: table-cell; vertical-align: middle;}
+    .cart-page #cart-wp table thead tr td{ font-size: 13px;}
+    .cart-page #to-checkout-wp table{ margin: 15px 0px;}
+    .cart-page #cart-wp table tfoot tr td #actions-cart a{ font-size: 12px; padding: 0px 15px;}
+    .cart-page #to-checkout{ width: 50%; padding: 30px 15px;}
+    /*CHECK OUT*/
+    #customer-info-wp .form-row{ padding-bottom: 15px;}
+    .checkout-page #main-content .section:nth-child(2){ padding-left: 20px;}
+    #customer-info-wp .form-row .form-col{ padding-right: 10px;}
+}
+
+@media screen and (max-width: 768px){}
+
+@media screen and (max-width: 600px){
+    /*HOME*/
+    #list-product-wp .list-item li{ width: 49%; margin-right: 2%;}
+    #list-product-wp .list-item li:nth-child(2n){ margin-right: 0!important}
+    #list-banner-wp .list-item li{ width: 100%; margin-right: 0!important; margin-bottom: 5%;}
+    #list-banner-wp .list-item li:last-child{ margin-bottom: 0!important;}
+    #list-banner-wp .list-item li .thumb img{ width: 100%;}
+    #blog-list, #follow-us{ width: 100%;}
+    #blog-list{ padding-bottom: 80px;}
+    /*FOOTER*/
+    #foot-body .block{ width: 100%!important; margin-bottom: 40px;}
+    #foot-body .block#top-selling{ margin-bottom: 0!important;}
+    /*CART & CHECK OUT*/
+    .cart-page .inf-cart-wp table tfoot tr td.actions{ padding: 15px 0px;}
+    .table-responsive .table thead tr td, .table-responsive .table tfoot tr td{ padding: 15px 25px;}
+    .cart-page #to-checkout{ width: 50%;}
+    .cart-page .cart-wp table tbody tr td{ padding: 10px 0px;}
+    #customer-info-wp .form-row{ padding-bottom: 20px;}
+    #customer-info-wp .form-row:last-child{ padding-bottom: 0!important;}
+    .checkout-page #main-content .section:nth-child(2){ padding-left: 0px; margin-top: 20px;}
+    .checkout-page .section{ width: 100%!important;}
+    #customer-info-wp{ margin-right: 0!important; padding-bottom: 50px;}
+    #order-review-wp{ margin-left: 0!important;}
+
+}
+
+@media screen and (max-width: 568px){
+    /*HOME*/
+    #list-product-wp .list-item li{ width: 100%; margin-right: 0!important;}
+    #feedback-wp .section-title, #blog-wp .section-title{ margin-bottom: 0!important;}
+    #list-product-wp .list-item li .thumb img{ width: 100%;}
+    #logo{ width: 80px;}
+    #menu-respon .logo{padding: 11px;}
+    .home-page .section-title:before{ display: none!important;}
+    .home-page .section-title{ font-size: 28px;}
+    #list-banner-wp{ padding: 15px 0px;}
+    #blog-list .owl-pagination{ bottom: -10%!important; right: 35%!important;}
+    #action-wp #cart-wp #btn-cart{ padding: 35px 15px 21px 15px;}
+    #action-wp #cart-wp #btn-cart #num{ top: 20px;}
+    #btn-respon{ line-height: 18px; padding: 36px 0px 20px 20px;}
+    #feedback-wp .owl-carousel .owl-item{ padding: 0!important;}
+    /*CATEGORY PRODUCT*/
+    #breadcrumb-wp .title{ display: none;}
+    .list-breadcrumb{ float: left;}
+    #filter-wp .list-item li{ float: none; text-align: center;}
+    #filter-wp .list-item li:nth-child(2){ display: none;}
+    /*DETAIL PRODUCT*/
+    #info-product-wp .thumb-respon{ width: 100%; margin-bottom: 5%;}
+    #info-product-wp .thumb-respon img{ width: 100%;}
+    #info-product-wp .info{ width: 100%; padding-left: 0!important;}
+    #product-name{ font-size: 28px; padding-bottom: 15px;}
+    #tab-menu li a{ font-size: 14px;}
+    #same-category-wp .section-title{ font-size: 26px;}
+    #same-category-wp .owl-controls .owl-buttons div{ top: -65px;}
+    /*CATEGORY NEWS*/
+    #list-news-wp .thumb{ width: 100%; margin-bottom: 5%;}
+    #list-news-wp .thumb:before{ display: none;}
+    #list-news-wp .thumb img{ width: 100%;}
+    #list-news-wp .info{ width: 100%; padding-left: 0!important;}
+    #list-news-wp .info .title{ font-size: 22px;}
+    /*CART*/
+    .cart-page #to-checkout{ width: 100%!important;}
+    #proceed-checkout-wp #proceed-checkout{ padding: 15px 30px;}
+    /*CART & CHECKOUT*/
+    .cart-page #to-checkout{ width: 100%; padding: 25px 10px;}
+    .cart-page #to-checkout table{ margin: 15px 0px;}
+    .cart-page #to-checkout table tbody tr td, .cart-page #to-checkout table tbody tr th{ padding: 5px 0px; font-size: 14px;}
+    #proceed-checkout-wp #proceed-checkout-wp, .cart-page .cart-wp table tfoot tr td #actions-cart a{ padding: 0px 20px; height: 35px; line-height: 35px;}
+    .cart-page #to-checkout .title{ font-size: 16px;}
+    #customer-info-wp .form-row{ padding-bottom: 0;}
+    #customer-info-wp .form-row .form-col{ width: 100%; padding-right: 0; padding-bottom: 15px;}
+    .checkout-page #main-content .section:nth-child(2) .section-head .section-title, .checkout-page #main-content .section:nth-child(1) .section-head .section-title{ margin-bottom: 25px;}
+    .checkout-page #main-content .section:nth-child(2) .section-head .section-title, .checkout-page #main-content .section:nth-child(1) .section-head .section-title{ font-size: 16px;}
+    .checkout-page#content-wp #main-content{ margin: 35px 0px 50px 0px;}
+    .checkout-page#content-wp{ padding-bottom: 0;}
+    #order-review-wp .shop-table tbody tr td{ line-height: 20px;}
+    .place-order-wp input[type="submit"]{ padding: 15px 45px;}
+    /*FOOTER*/
+    #footer-wp{ margin-top: 60px;}
+    #foot-bottom{ padding: 10px 0px;}
+
+}
+
+@media screen and (max-width: 320px){
+    /*FOOTER*/
+    #btn-top{ width: 40px; bottom: 62px;}
+    /*CART & CHECKOUT*/
+    .place-order-wp input[type="submit"]{ padding: 15px 30px;}
+}

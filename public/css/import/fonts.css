@@ -1,0 +1,25 @@
+/*FONTS*/
+@font-face {
+    font-family: 'Roboto Condensed Bold';
+    src: url('../../fonts/RobotoCondensed-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto Condensed Bold Italic';
+    src: url('../../fonts/RobotoCondensed-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Roboto Condensed Italic';
+    src: url('../../fonts/RobotoCondensed-Italic.ttf');
+}
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    src: url('../../fonts/RobotoCondensed-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto Condensed Light Italic';
+    src: url('../../fonts/RobotoCondensed-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    src: url('../../fonts/RobotoCondensed-Regular.ttf');
+}
